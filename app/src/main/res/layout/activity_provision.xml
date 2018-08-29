@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ec4141"
+        android:padding="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="18dp"
+                android:text="제1조 목적"
+                android:paddingBottom="10dp"
+                android:textStyle="bold"
+                />
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#dddddd"
+                >
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+
+                    android:text="이 약관은 위치기반서비스와 관련하녀 사용자와 소방방재청간 위치정보의 보호및 이용 등에 관한 법률의 규정에 의거 사호간에 권리 및 의무,기타 제반 사항을 정함을 목적으로 합니다" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!-- 여기까지 제 1조 -->
+        <!-- 여기부터 제 2조 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            >
+            <TextView
+                android:textStyle="bold"
+                android:paddingBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:text="제2조 개인위치정보 수집에 관한 동의" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#dddddd"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:weightSum="2"
+                >
+                <!--여기부터 2조-1 시작-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    >
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:id="@+id/imag1"
+                        android:src="@drawable/ff3"
+                        android:scaleType="fitXY"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="수집목적"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="사용자의 정확한 위치저옵로 신속한 긴급구조를 목적으로 합니다.사용자는 본약관에 동의함으로써 이에동의한 것으로 간주됩니다 "
+                        android:textSize="14dp"
+                        android:paddingBottom="10dp"
+                        />
+                </LinearLayout>
+                <!--여기까지 2조-1 끝-->
+                <!--여기부터 2조-2 시작-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    >
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:id="@+id/imag2"
+                        android:src="@drawable/ff3"
+                        android:scaleType="fitXY"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="수집항목"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="사용자의 개인위치정보및 이동전화번호"
+                        android:textSize="14dp"
+                        android:paddingBottom="10dp"
+                        />
+                </LinearLayout>
+                <!--여기까지 2조-2 끝-->
+                <!--여기부터 2조-3 시작-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    >
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:id="@+id/imag3"
+                        android:src="@drawable/ff3"
+                        android:scaleType="fitXY"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="보유 및 활용기간"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="사용자의 정보는 신고접수시부터 상황종결시까지 사용됩니다"
+                        android:textSize="14dp"
+                        android:paddingBottom="10dp"
+                        />
+                </LinearLayout>
+                <!--여기까지 2조-3 끝-->
+                <!--여기부터 2조-4 시작-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    >
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:id="@+id/imag4"
+                        android:src="@drawable/ff3"
+                        android:scaleType="fitXY"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="동의거부 권리 및불이익"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="본 개인정보에 제공에 대한 동의를 거부하실 수 있습니다.이 경우 119신고앱의 서비스 이용이 제한됩니다"
+                        android:textSize="14dp"
+                        android:paddingBottom="10dp"
+                        />
+                </LinearLayout>
+                <!--여기까지 2조-4 끝-->
+            </LinearLayout>
+        </LinearLayout>
+        <!--제2조 끝 -->
+
+        <!--제3조 시작-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:text="제3조 데이터네트워크/WIFI/GPS활성화 동의"
+                android:textStyle="bold"
+                android:paddingBottom="10dp"
+                />
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#dddddd"
+                >
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:text="이 약관은 119신고 앱으로 119 신고시, 신고자의 정확한 위치정보 측정및 전송을 위해 신고방식에 따라 위치서비스(GPS, WIFI,무선네트워크), 데이터네트워크(3G,4G)등을 자동 활성화 시킬 수 있으며, 데이터네트워크(3G,4G)활성화 및 이용으로 인해 데이터 이용요금이 발생 할 수 있습니다. 실행 중 삭제 및 강제종료시 GPS등 5가지 항목의 상태정보 복원이 불가능합니다." />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:layout_gravity="center"
+                android:text="뒤로가기"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="back"
+                />
+        </LinearLayout>
+
+    </LinearLayout><!--제일 엄마-->
+
+</ScrollView>
